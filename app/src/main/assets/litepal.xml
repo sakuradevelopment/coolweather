@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="cool_weather"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.sakura.coolweather.db.Province"/>
+        <mapping class="com.sakura.coolweather.db.City"/>
+        <mapping class="com.sakura.coolweather.db.County"/>
+    </list>
+</litepal>
+
+    <!--
+    dbname数据库名
+    version用于指定数据库版本号
+    list用于指定所有的映射模型
+    -->
